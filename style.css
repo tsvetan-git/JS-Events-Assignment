@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2016, 12:58:25 AM
+    Author     : Borisov
+*/
+
+body {
+	background-image: url("images/main-background.jpg");
+	background-repeat: repeat-y repeat-x;
+}
+#container {
+	width: 980px;
+	height: 580px;
+	margin: 0 auto;
+	background-color: grey;
+	border-radius: 5px;
+}
+#main {
+	width: 960px;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	background-image: url("images/space.png");
+	
+}
+#ship {
+	width: 100px;
+	height: 100px;
+	bottom: 0;
+	position: absolute;
+	background-image: url("images/ship.png");
+}
+
+#enemy {
+	width: 150px;
+	height: 150px;
+	top: 0;
+	left: 950px;
+	position: absolute;
+	background-image: url("images/enemy-ship.png");
+}
+
+#rocket {
+	width: 20px;
+	height: 48px;
+	bottom: 0;
+	position: absolute;
+	background-image: url("images/rocket.png");
+	visibility: hidden;
+}
+
+#score {
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+	background-color: #eb9922;
+	font-family: Impact, Charcoal, sans-serif;
+}
